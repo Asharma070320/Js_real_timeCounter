@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/black-workspace-top-view-wireless-keyboard-copy-space-black-leather-background-flat-lay_67155-19492.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mini_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    border: 1px solid white;
+    width: 35%;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 4px #888888;
+
+}
+
+.numberCharacters{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+h1, textarea, .numberCharacters{
+    margin: 10px;
+    background-color: white; 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    
+}
